@@ -81,7 +81,7 @@ Minimap
 The minimap is a very useful tool on the Warzone battlefield. It helps you keep
 track of your units and structures, your opponents units and structures (within
 range), and the map itself. Orders can be issued over the minimap, and it can
-be used to jump to part of the map very quickly.
+be used to jump to a part of the map very quickly.
 
 The minimap is given after you build a Command Center.
 
@@ -100,7 +100,7 @@ belong to the yellow/gray/black/red/blue/cyan/magenta player (not pictured).
 under attack.
 - 'Green pulse': Artifact. Needed to research technologies in Campaign. In
 Skirmish/Multiplayer, can be found by destroying enemy base structures.
-- 'Red pulse': An enemy base or other point of interest. Only used in Campaign.
+- 'Red pulse': An enemy base or other point of interest.
 - 'Blue pulse': A free <<_power, oil resource>>.
 
 
@@ -152,7 +152,7 @@ section, representing its price. If you cannot afford it, the power bar will
 instead turn red.
 
 The amount of power you have is shown on the very left of the power bar. If you
-place your mouse over an icon, if you have enough power to get it, the number
+place your mouse over an icon and you have enough power to get it, the number
 will show the amount of power it will cost. If you can't afford it, the number
 will show the amount of power you need to be able to afford it.
 
@@ -169,7 +169,7 @@ image:images/powerupgrade.png[]
 Power Generators can have a Power Module built on top of them to squeeze out
 more power. Power Modules need to be researched before you can build them.
 There are also several researchable upgrades available which increase the
-amount of power you receive.
+amount of power you receive from them.
 
 
 Ordering Units
@@ -200,8 +200,8 @@ order. You can also select a queue of enemies for units to attack. Hold Shift
 or Ctrl while selecting units or clicking places to move.
 
 This also works for queuing construction of Oil Derricks and/or structures in a
-chain - hold the key down while building the structures one by one, then, when
-building the final structure, release the key.
+chain - hold the key down while building the structures one by one, then release 
+the key after you've queued the last structure you want to build.
 
 Groups of Units
 ^^^^^^^^^^^^^^^
@@ -293,8 +293,8 @@ Recycling
 image:images/recycling.jpg[]
 
 Recycling a unit will send it to the nearest Repair Facility or Factory, and
-destroy it. Half the power used in making it will be refunded to you. The
-unit's experience level will be placed in the next unit that is manufactured.
+destroy it. Half the power that was used in making the unit will be returned to you. 
+The unit's experience level will be placed in the next unit that is manufactured.
 
 Unit experience
 ^^^^^^^^^^^^^^^
@@ -311,8 +311,8 @@ Hardpoints and bunkers
 ^^^^^^^^^^^^^^^^^^^^^^
 
 Hardpoints, bunkers, and other defensive structures cannot be ordered to shoot
-directly. However, you can assign artillery emplacements to a sensor tower.
-Nearby commanders with the 'indirect fire support' option activated will also
+directly. However, you can assign artillery tanks to a sensor tower.
+Nearby commanders with the 'indirect fire support' option activated can also
 command these structures.
 
 Indirect-fire units and sensors
@@ -325,21 +325,20 @@ Ordering VTOLs
 --------------
 
 VTOLs are used similarly to ground units. However, they do have a few
-differences. For one thing, they can 'fly'...
+differences. For one thing, they 'fly'...
 
 Design and production
 ~~~~~~~~~~~~~~~~~~~~~
 
-To produce VTOL units, you'll need the image:images/www.png[URL]
-http://guide.wz2100.net/r/vtolpropulsion[VTOL Propulsion] and
+To produce VTOL units, you'll need the
 image:images/www.png[URL] http://guide.wz2100.net/r/vtolfactory[VTOL Factory]
-researched, and a VTOL Factory built. You should also research and build a few
+researched and built. You should also research and build a few
 image:images/www.png[URL] http://guide.wz2100.net/r/vtolrearmingpad[VTOL
 Rearming Pads], otherwise, they won't be able to reload ammo.
 
 Before you produce a VTOL unit, you must design it. VTOLs are designed the same
-way as regular units -- simply select 'VTOL propulsion' -- but use slightly
-different weapons (more on that later).
+way as regular units -- simply select 'VTOL propulsion' -- however they use 
+slightly different weapons (more on that later).
 
 VTOLs can only be built at VTOL Factories. VTOL factories can be upgraded with
 factory modules -- there's no need to research a separate "VTOL factory
@@ -363,7 +362,8 @@ attacking.
 
 Unlike ground units, which reload automatically, VTOLs carry a limited amount
 of ammo. Once that ammo runs out, the VTOL can't attack until it refuels. A
-VTOL out of ammo will automatically find a VTOL rearming pad to rearm and
+VTOL out of ammo will automatically find a VTOL rearming pad to rearm
+(which can even be a rearming pad owned by an ally!) and
 repair itself (and will resume attacking once fully rearmed), or it can be
 manually rearmed by selecting it and clicking on a rearming pad.
 
@@ -378,8 +378,8 @@ VTOL weapons
 ~~~~~~~~~~~~
 
 Most weapons have a VTOL equivalent, which does approximately twice as much
-damage, but has limited ammo. VTOL versions of regular weapons, like cyborgs,
-do not need to be researched separately.
+damage, but has limited ammo. VTOL versions of regular weapons, like super 
+cyborgs, do not need to be researched separately.
 
 In addition to VTOL versions of ground-based direct weapons, VTOLs can also use
 image:images/www.png[URL] http://guide.wz2100.net/w/#vtolbombs[bomb weapons].
@@ -392,11 +392,11 @@ VTOLs are not ground-based units, so most ground weapons cannot hit them. They
 an only be hit by either anti-air (often abbreviated AA) (can only hit air) or
 versatile (can hit air or ground) weapons.
 
-There are only a few weapons that are versatile: machineguns, lasers, and
+There are only a few weapons that are versatile: machineguns, lasers, and the 
 Mini-Rocket Pod. Rockets and missiles are also versatile, but only when mounted
 on a cyborg or VTOL. In addition to being uncommon, versatile weapons do not do
 as much damage to VTOLs as dedicated anti-air, so having some AA is
-recommended.
+recommended against VTOLs.
 
 There are three types of dedicated AA. In order of powerfulness, they are: Flak
 (Hurricane, Cyclone, Whirlwind), SAM (Avenger, Vindicator), and Stormbringer.
@@ -419,7 +419,7 @@ Command Panel
 -------------
 
 There are six different command panel interfaces, plus a central button. You
-open up a command interface by pressing the appropriate button.
+can open up a command interface by pressing the appropriate button or key.
 |===
 |image:images/commandpanel.png[] |F1: <<_manufacturing, Manufacture>>
 
@@ -440,7 +440,7 @@ Manufacturing
 -------------
 
 Manufacturing units is similar to building structures. The buildings that can
-build structures are Factories, Cyborg Factories and VTOL Factories.
+build units are Factories, Cyborg Factories and VTOL Factories.
 
 image:images/manufacture-select.jpg[]
 
@@ -458,14 +458,17 @@ bar will open at the bottom of the screen, between the radar and the Command
 Panel.
 
 The bottom row of the two contains every Factory, Cyborg Factory and VTOL
-Factory built. Clicking it will zoom the camera to the structure.
+Factory built. Clicking it will move the camera to the structure.
 
-To manufacture a unit, click the space above a factory. If this factory is
-capable of building a unit, it will appear in a menu on the left side of the
-screen.
+To manufacture a unit, click the space above a factory in the Fast Find bar. 
+If this factory is capable of building a unit, it will appear in a menu on the 
+left side of the screen.
 
-A factory can only build a unit if the body of a unit is a certain type
-(unit/cyborg/VTOL), and if the factory has enough modules applied.
+A factory can only build a unit if the propulsion of a unit is the correct type 
+for the factory(unit/cyborg/VTOL), and if the factory has enough modules 
+applied -- light body units can be built on a basic, non upgraded factory while 
+medium body units need one module built, and heavy units require a fully 
+module-upgraded factory.
 
 Queuing Units
 ~~~~~~~~~~~~~
@@ -485,7 +488,7 @@ Rally Points
 ~~~~~~~~~~~~
 
 When the unit is done building, it will spawn next to the factory, then proceed
-to a rally point. A rally point is created when a factory is made.
+to a designated rally point which is made when a factory is constructed.
 Right-clicking on the factory in the bottom Fast Find row will centre the
 camera on a spawn point. Clicking a rally point will allow you to move it in a
 similar way to building a structure. Please note that moving a rally point
@@ -499,7 +502,7 @@ point, Repair Facility, VTOL rally point'
 Looped production
 ~~~~~~~~~~~~~~~~~
 
-You can also set looped production by left and right clicking the loop button
+You can also set looped production by left or right clicking the loop button
 in the left column near the top. This repeats the build sequence you set the
 amount of times shown next to the button. This can be set to infinite by
 right-clicking when the number reads zero.
@@ -524,7 +527,7 @@ Researching
 Single Player
 ^^^^^^^^^^^^^
 
-In the single player game, you collect Artefacts from enemies and research
+In the single player game, you collect Artifacts from enemies and research
 them. Artefacts are small white boxes with a wrench above them, and can be
 collected by any unit by moving to it.
 
@@ -540,11 +543,13 @@ Researching a topic
 
 When you open the Research menu, a Fast Find menu with two rows will appear at
 the bottom of the screen. All your research facilities are shown on the second
-row. Clicking a research facility will zoom the camera to it.
+row. Clicking a research facility will move the camera to it.
 
 Clicking the blank icon above a facility will show a set of icons on the left.
 You can hold the mouse over an icon to see its name. Click an icon to start
-researching it. Only one center can research one technology at a time.
+researching it. Only one center can research one technology at a time - however 
+you can research more than one technology at a time by building more 
+Research Facillities.
 
 While a facility is researching, it displays a bar in its Fast Find area. If
 the bar is green, the facility is gathering power. If it is yellow, the topic
@@ -553,8 +558,8 @@ is being researched.
 Research Completion
 ~~~~~~~~~~~~~~~~~~~
 
-When research is completed, the game will inform you by a message and playing a
-sound "Research Completed". If it was a major technology advancement, an entry
+When research is completed, the game will inform you with a message and playing a
+sound: "Research Completed". If it was a major technology advancement, an entry
 will be made in the Intelligence Display. You can check the entry for more
 information about the research.
 
@@ -563,17 +568,18 @@ Research Upgrades
 
 You can research a Research Module during the course of the game. To apply it,
 select a truck and left click a non-upgraded Research Center, and the truck
-will build it. However, the topic you are researching will be stopped until the
-module is built - it's your choice to let it build or wait.
+will build it. However, the topic you are researching will be paused until the
+module is built - your choice to build it or wait.
 
 Other upgrades are also available for Research Centers, but these don't make
-you wait to apply an upgrade to a building.
+you wait to apply an upgrade to a building - they are automatically applied 
+when the research for it finishes.
 
 Building
 --------
 
-Building structures is absolutely vital in Warzone - from Factories to build
-units, to Research Centers for researching new technology.
+Building structures is absolutely vital in Warzone - from Factories that build
+units, to Research Centers which researches new technology.
 
 Building can be done with units with Trucks as turrets and Combat Engineers.
 
@@ -600,19 +606,21 @@ the mouse over an icon to see the structure's name.
 Selecting a location
 ~~~~~~~~~~~~~~~~~~~~
 
-When you select a structure, it closes the two menus (like clicking the middle
-button). A white square will appear in the world. This is where your structure
-will be placed. Move the square by moving the mouse. Click to place the build
-site for the structure. If the square is red, the structure cannot be placed.
+When you select a structure, it closes the two menus - and a silouette of the 
+structure you wish to build will appear in the game. 
+This is where your structure will be placed. Move the silouette by moving the 
+mouse. Click to place the build site for the structure. 
+If the silouette is red, the structure cannot be placed.
 To build "walls" (when building defenses) you can click and drag the box to
 draw a wall.
 
 Oil Derricks
 ~~~~~~~~~~~~
 
-Oil derricks can only be built on Oil Pools which aren't on fire. Fires on Oil
-Pools will burn out over time. Oil derricks are built automatically if a truck
-is selected and you left-click an Oil Pool.
+Oil derricks can only be built on Oil Pools which aren't on fire. 
+Oil derricks that have been destroyed(not demolished or taken down) will catch 
+on fire and will be unusable for a while until the fire goes out. 
+Oil derricks are built by left clicking on an oil pool with a truck selected.
 
 The unit you selected to build the structure will move to build the structure.
 
@@ -625,7 +633,7 @@ site.
 Repairing
 ~~~~~~~~~
 
-You can assign a unit to repair a structure by selecting it and left-clicking a
+You can assign a truck to repair a structure by selecting it and left-clicking a
 building.
 
 Demolishing
@@ -634,21 +642,22 @@ Demolishing
 Demolishing a building is nearly as simple as building one. Select "Demolish
 Structure" in the Structure menu and click a building to demolish. The unit
 will move to the building and destroy it, giving you half the power used in
-building the structure. Demolish Structure will always be available, from start
-of game to end.
+building the structure. Demolish Structure will always be available, from the 
+start of the game to end.
 
 Teamwork
 ~~~~~~~~
 
 You can assign extra trucks/cyborgs to a building to build it faster. Simply
 select a unit and left-click a structure, and the unit will move to the
-building and start helping construction.
+building and start helping the other trucks/cyborgs busy at work.
 
 Hardcrete and Tank Traps
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 You may wonder what the Hardcrete and Tank Traps do. Well, they do nothing.
-They just sit there and keep your units and enemy units from passing through.
+They just sit there and keep your units and enemy units from passing through - 
+assuming they aren't destroyed by the enemy!
 
 
 Design
@@ -729,9 +738,9 @@ image:images/design-bars.jpg[]
 Intelligence Display
 --------------------
 
-While the Intelligence Display doesn't have a large purpose like the rest of
-the functions, it is still very useful indeed - it contains a record of all the
-technology you have researched, and your mission objective in Campaign
+While the Intelligence Display doesn't have a large purpose like many of the 
+other functions, it is still very useful - it contains a record of all the
+technologies you have researched, and your mission objective in Campaign
 missions.
 
 image:images/intelligencedisplay.jpg[]
@@ -760,8 +769,8 @@ image:images/commander.png[]
 Command turrets are used much like <<_artillery_and_sensors, sensors>>, except
 they can command any attacking unit, not just artillery. They are limited to
 having 6 non-artillery attacking units assigned to them at first, but this
-limit rises by 2 each time the commander gains a rank, which happens relatively
-quickly.
+limit rises by 2 each time the commander gains a rank, which can happen 
+relatively quickly.
 
 Command turrets provide an image:images/www.png[URL]
 http://guide.wz2100.net/experience[accuracy, armor, and movement speed bonus]
@@ -855,16 +864,19 @@ Artillery and Sensors
 ---------------------
 
 As a review, keep in mind that "artillery" here refers to all indirect-fire
-weapons except the mini-rocket artillery (MRL) and Angel Missiles, namely:
+weapons except the mini-rocket array (MRA) and Seraph Missiles, namely:
 
 - Mortars (mortar, bombard, pepperpot, incendiary mortar)
 - Howitzers (howitzer, ground shaker, hellstorm, incendiary howitzer)
 - Ripple rockets
 - Archangel missiles
 
-Although the MRL and Angel Missiles are indirect-fire weapons, they should be
-used like one would use direct-fire weapons, since their range is low enough
-that its internal sensor can handle it; external sensors are unnecessary.
+Although the MRA and Seraph Missiles are technically indirect-fire weapons, 
+when placed on units they work differently compared to other artillary tanks - 
+they can fire while moving.
+Like other artillary tanks, they can be assigned to a sensor, but that may or 
+may not be necessary, depending on sensor tower coverage, fighting location or
+sensor upgrades.
 
 Sensors
 ~~~~~~~
@@ -890,7 +902,7 @@ sensor to assign the tank to the sensor.
 image:images/artillery-sensor.jpg[]
 
 'Artillery assigned to a sensor. Notice the * next to them, which indicates that
-they are assigned.'
+they are assigned to a sensor.'
 
 Once the artillery is assigned, if it is assigned to a sensor tower, that tower
 will target enemies that come in range automatically.
@@ -930,14 +942,12 @@ A VTOL CB sensor does the same thing, except to VTOLs assigned to it.
 Sensor towers
 ~~~~~~~~~~~~~
 
-Sensor towers and sensor units have several major differences:
+Sensor towers and sensor units have two major differences:
 
 - A standard sensor turret has a range of 12; a standard sensor tower has a
 range of 16 (special sensor turrets have the same range as their tower).
 - A sensor tower cannot be ordered to target something specific; they
 automatically target the nearest unit (except CB and VTOL CB towers).
-- A sensor turret will not target anything automatically; it must be manually
-ordered to attack a target
 
 What counts as a sensor
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -955,7 +965,7 @@ Transports
 
 Transports are used during the campaign to transport units from one sector to
 another (known as 'Away Missions'). In multiplayer, they're used to transport
-cyborgs from one part of the current map to another.
+cyborgs and tanks from one part of the current map to another.
 
 image:images/transport.jpg[]
 
@@ -1033,13 +1043,14 @@ earlier option.
 Multiplayer
 ~~~~~~~~~~~
 
-The use of transports in Multiplayer is much more limited in comparison to
-Singleplayer.
+The use of transports in Multiplayer is much more limited in comparison to 
+the Campaign - but don't assume they are useless! For example, sneaking tanks 
+to another part if the map without the enemy knowing is always fun!
 
 Cyborg Transport
 ^^^^^^^^^^^^^^^^
 
-The only type of transport available in Multiplayer is the Cyborg Transport. As
+One type of transport available in Multiplayer is the Cyborg Transport. As
 you may or may not have guessed by the name, it can only hold Cyborgs, no
 normal units or VTOLs allowed. Cyborg Transports can only be built by VTOL
 Factories with 2 modules attached, and the technology needs to be researched.
@@ -1075,7 +1086,7 @@ Keyboard Shortcuts
 ------------------
 
 These are the default keyboard shortcuts. If you have customized your key
-mapping, your shortcuts may be different.
+mappings, your shortcuts will be different.
 
 Game
 ~~~~
