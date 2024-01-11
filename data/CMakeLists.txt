@@ -2,6 +2,7 @@ if(NOT DEFINED WZ_DATADIR)
 	message(FATAL_ERROR "This file should be included in the project's root CMakeLists.txt, after WZ_DATADIR is defined.")
 endif()
 
+
 if(CMAKE_SYSTEM_NAME MATCHES "Darwin")
 	OPTION(WZ_INCLUDE_VIDEOS "Download & include videos in the application package" OFF)
 endif()
