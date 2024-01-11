@@ -1,5 +1,6 @@
 # How to build the docker images:
 
+
 In the root of the WZ repo:
 - `docker build -f docker/<subdir>/Dockerfile -t <build_image_name> .`
 
